@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background-image: url(../img/sfondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.box {
+  width: 80vw;
+  margin: 40px auto;
+}
+
+header {
+  width: 100%;
+  height: 380px;
+  position: relative;
+}
+
+.immagine {
+  width: 100%;
+  height: 280px;
+  border: 10px solid black;
+  position: relative;
+}
+
+.immagine img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.titolo {
+  text-align: center;
+  color: black;
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-size: 20px;
+}
+
+.albero {
+  font-size: 70px;
+  border: 0px;
+  top: calc(50% - 58px);
+}
+
+.secondo {
+  border: 0px;
+  top: 70%;
+}
+
+.menu {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color:rgba(222, 184, 135,0.4);
+}
+
+.absolute {
+  text-align: center;
+  width: 100%;
+  /* position: absolute; */
+  line-height: 100px;
+  font-size: 22px;
+}
+.absolute a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.absolute ul {
+  list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+ul li {
+  display: inline-block;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.center {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aside {
+  width: 20%;
+  padding-top: 10px;
+  float: left;
+}
+
+.section {
+  font-size: 18px;
+  background-color:rgba(222, 184, 135,0.4);
+  padding: 10px;
+}
+
+.section h2 {
+  font-size: 20px;
+}
+
+.scritte {
+  line-height: 25px;
+  color: green;
+  padding: 10px;
+}
+
+.scritte a {
+  text-decoration: none;
+  color: green;
+}
+
+main {
+  width: 60%;
+  padding: 10px;
+  float: left;
+}
+
+.section-main {
+  background-color: rgba(222, 184, 135,0.4);
+  height: 100%;
+}
+
+.section-main h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  margin-left: 140px;
+}
+
+.section-main .main-text {
+  padding: 10px;
+}
+
+.aside .section2 {
+height: 100%;
+font-size: 18px;
+}
+
+.white {
+  padding-bottom:10px;
+}
+
+.sopra {
+  background-color: rgba(222, 184, 135,0.4);
+  width: 100%;
+  height: 100%;
+}
+
+.sopra h2 {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.sopra p {
+  padding: 10px;
+}
+
+.sotto {
+  background-color: rgba(222, 184, 135,0.4);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(222, 184, 135,0.4);
+}
+
+footer .hr {
+  border-bottom:2px solid black;
+  width: 100%;
+  height: 15px;
+
+}
+
+.footer {
+  text-align: center;
+}
+
+.icon a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer .icon {
+  display: inline-block;
+  padding: 30px 130px;
+  font-size: 30px;
+}
