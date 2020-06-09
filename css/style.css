@@ -75,10 +75,10 @@ header {
 .absolute {
   text-align: center;
   width: 100%;
-  /* position: absolute; */
   line-height: 100px;
   font-size: 22px;
 }
+
 .absolute a:hover {
   background: #ddd;
   color: black;
@@ -86,9 +86,9 @@ header {
 
 .absolute ul {
   list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 ul li {
